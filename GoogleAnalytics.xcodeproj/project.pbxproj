@@ -359,7 +359,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleAnalytics",
 				);
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -395,7 +395,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleAnalytics",
 				);
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
